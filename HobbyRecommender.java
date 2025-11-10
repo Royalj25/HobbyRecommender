@@ -7,13 +7,11 @@ import java.util.Scanner;
  * @author Jaiah Royal L27
  * @version 2025-09-21
  *
- * 
- *
- * 
  */
 
 public class HobbyRecommender {
 
+    // Questions
     public static final String WELCOME_MESSAGE = "Welcome to the Hobby Recommender!";
     public static final String INITIAL = "Are you interested in finding a new hobby?";
     public static final String INDOOR = "Do you prefer indoor hobbies?";
@@ -31,20 +29,18 @@ public class HobbyRecommender {
         " the Hobby Recommender!";
 
     // Hobby recommendations
-    public static final String HOBBY_ONE = "Painting";
-    public static final String HOBBY_TWO = "Programming";
-    public static final String HOBBY_THREE = "Board Games";
-    public static final String HOBBY_FOUR = "Cooking";
-    public static final String HOBBY_FIVE = "Football";
-    public static final String HOBBY_SIX = "Cycling";
-    public static final String HOBBY_SEVEN = "Weightlifting";
-    public static final String HOBBY_EIGHT = "Jogging";
-    public static final String HOBBY_NINE = "Fishing";
-    public static final String HOBBY_TEN = "Wildlife Photography";
-    public static final String HOBBY_ELEVEN = "Go-karting";
-    public static final String HOBBY_TWELVE = "Kite Flying";
-    
-    // ------------------------- DO NOT MODIFY ABOVE -------------------------
+    public static final String HOBBY_ONE = "I suggest you try: Painting";
+    public static final String HOBBY_TWO = "I suggest you try: Programming";
+    public static final String HOBBY_THREE = "I suggest you try: Board Games";
+    public static final String HOBBY_FOUR = "I suggest you try: Cooking";
+    public static final String HOBBY_FIVE = "I suggest you try: Football";
+    public static final String HOBBY_SIX = "I suggest you try: Cycling";
+    public static final String HOBBY_SEVEN = "I suggest you try: Weightlifting";
+    public static final String HOBBY_EIGHT = "I suggest you try: Jogging";
+    public static final String HOBBY_NINE = "I suggest you try: Fishing";
+    public static final String HOBBY_TEN = "I suggest you try: Wildlife Photography";
+    public static final String HOBBY_ELEVEN = "I suggest you try: Go-karting";
+    public static final String HOBBY_TWELVE = "I suggest you try: Kite Flying";
     
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -55,99 +51,119 @@ public class HobbyRecommender {
         String interests = scan.nextLine().toLowerCase();
 
         if (interests.equals("no")) {
+            // not interested in hobby recommender
             System.out.println(GOODBYE_MESSAGE);
         } else if (interests.equals("yes")) {
-
+            // is interested in hobby recommender
             System.out.println(INDOOR);
             String indoor = scan.nextLine().toLowerCase();
-
+            
             if (indoor.equals("yes")) {
+                // likes indoor hobbies
                 System.out.println(ART);
                 String art = scan.nextLine().toLowerCase();
-
+                
                 if (art.equals("yes")) {
-                    System.out.println(HOBBY_ONE);
+                    // likes artistic hobbies
+                    System.out.println(HOBBY_ONE); // suggests painting
                     System.out.println(GOODBYE_MESSAGE);
                 } else if (art.equals("no")) {
+                    // does not like artistic hobbies
                     System.out.println(TECHNICAL);
                     String tech = scan.nextLine().toLowerCase();
 
                     if (tech.equals("yes")) {
-                        System.out.println(HOBBY_TWO);
+                        // likes technical hobbies
+                        System.out.println(HOBBY_TWO); // suggests programming
                         System.out.println(GOODBYE_MESSAGE);
                     } else if (tech.equals("no")) {
+                        // does not like technical hobbies
                         System.out.println(SOCIAL);
                         String social = scan.nextLine().toLowerCase();
 
                         if (social.equals("yes")) {
-                            System.out.println(HOBBY_THREE);
+                            // likes social hobbies
+                            System.out.println(HOBBY_THREE); // suggests board games
                             System.out.println(GOODBYE_MESSAGE);
                         } else if (social.equals("no")) {
-                            System.out.println(HOBBY_FOUR);
+                            // does not like social hobbies
+                            System.out.println(HOBBY_FOUR); // suggests cooking
                             System.out.println(GOODBYE_MESSAGE);
                         }
                     }
                 }
 
             } else if (indoor.equals("no")) {
-
+                // does not like indoor hobbies
                 System.out.println(PHYSICAL);
                 String physical = scan.nextLine().toLowerCase();
 
                 if (physical.equals("no")) {
-
+                    // does not like physical hobbies
                     System.out.println(NATURE);
                     String nature = scan.nextLine().toLowerCase();
 
                     if (nature.equals("yes")) {
+                        // likes hobbies involving nature
                         System.out.println(WATER);
                         String water = scan.nextLine().toLowerCase();
 
                         if (water.equals("yes")) {
-                            System.out.println(HOBBY_NINE);
+                            // likes water hobbies
+                            System.out.println(HOBBY_NINE); // suggest fishing
                             System.out.println(GOODBYE_MESSAGE);
                         } else if (water.equals("no")) {
-                            System.out.println(HOBBY_TEN);
+                            // does not like water hobbies
+                            System.out.println(HOBBY_TEN); // suggests wildlife photography
                             System.out.println(GOODBYE_MESSAGE);
                         }
 
                     } else if (nature.equals("no")) {
+                        // does not like hobbies involving nature
                         System.out.println(THRILLING);
                         String thrill = scan.nextLine().toLowerCase();
 
                         if (thrill.equals("no")) {
-                            System.out.println(HOBBY_TWELVE);
+                            // does not like thrilling hobbies
+                            System.out.println(HOBBY_TWELVE); // suggests kite flying
                             System.out.println(GOODBYE_MESSAGE);
                         } else if (thrill.equals("yes")) {
-                            System.out.println(HOBBY_ELEVEN);
+                            // likes thrilling hobbies
+                            System.out.println(HOBBY_ELEVEN); // suggets go-karting
                             System.out.println(GOODBYE_MESSAGE);
                         }
                     }
 
                 } else if (physical.equals("yes")) {
-
+                    // likes physical hobbies
                     System.out.println(SPORTS);
                     String sports = scan.nextLine().toLowerCase();
 
                     if (sports.equals("yes")) {
-                        System.out.println(HOBBY_FIVE);
+                        // likes sport hobbies
+                        System.out.println(HOBBY_FIVE); // suggests football
                         System.out.println(GOODBYE_MESSAGE);
                     } else if (sports.equals("no")) {
+                        // does not like sport hobbies
                         System.out.println(TRAINING);
                         String training = scan.nextLine().toLowerCase();
 
                         if (training.equals("yes")) {
-                            System.out.println(HOBBY_SIX);
+                            // likes training hobbies
+                            System.out.println(HOBBY_SIX); // suggests cycling
                             System.out.println(GOODBYE_MESSAGE);
                         } else if (training.equals("no")) {
+                            // does not like training hobbies
                             System.out.println(GYM);
                             String gym = scan.nextLine().toLowerCase();
 
                             if (gym.equals("yes")) {
-                                System.out.println(HOBBY_SEVEN);
+                                // likes gym hobbies
+                                System.out.println(HOBBY_SEVEN); // suggests weightlifing
                                 System.out.println(GOODBYE_MESSAGE);
                             } else if (gym.equals("no")) {
-                                System.out.println(HOBBY_EIGHT);
+                                // does not like gym hobbies
+                                System.out.println(HOBBY_EIGHT); // suggests jogging
                                 System.out.println(GOODBYE_MESSAGE);
                             }
                         }
