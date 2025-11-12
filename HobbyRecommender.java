@@ -39,7 +39,7 @@ public class HobbyRecommender {
     public static final String HOBBY_EIGHT = "My Hobby Recommendation: Jogging";
     public static final String HOBBY_NINE = "My Hobby Recommendation: Fishing";
     public static final String HOBBY_TEN = "My Hobby Recommendation: Wildlife Photography";
-    public static final String HOBBY_ELEVEN = "My Hobby Recommendation: Go-karting";
+    public static final String HOBBY_ELEVEN = "My Hobby Recommendation: Go-Karting";
     public static final String HOBBY_TWELVE = "My Hobby Recommendation: Kite Flying";
     
     public static void main(String[] args) {
