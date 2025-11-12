@@ -9,12 +9,13 @@ Welcome to the Hobby Recommender!
 
 Are you interested in finding a new hobby?
 
-"No"
+"NO"
 
 Thank you for using the Hobby Recommender!
 
 
 ---
+
 
 ## Example 2 — Outdoor, Physical, Weightlifting 💪
 Welcome to the Hobby Recommender!
@@ -27,28 +28,25 @@ Do you prefer indoor hobbies?
 
 "no"
 
-Enter Customer Street Address:
+Do you like physical exercise?
 
-"Y / N"
+"yes"
 
-Enter Customer City:
+Do you enjoy team sports?
 
-"Y / N"
+"no"
 
-Enter Customer State:
+Do you like strength training?
 
-"Y / N"
+"no"
 
-Enter Customer Zip Code:
+Do you enjoy the gym environment?
 
-"Y / N"
+"yes"
 
-Enter Customer Phone Number:
+My Hobby Recommendation: Weightlifting
 
-"Y / N"
-
-The Assigned User String is 59006HMLE1234elmstreetCLE02000-4600
-
+Thank you for using the Hobby Recommender!
 
 ---
 
@@ -59,31 +57,21 @@ Are you interested in finding a new hobby?
 
 "Yes"
 
-Enter Customer Age:
+Do you prefer indoor hobbies?
 
-"Y / N"
+"Yes"
 
-Enter Customer Street Address:
+"Do you enjoy artistic activities?
 
-"Y / N"
+"No"
 
-Enter Customer City:
+Do you like technical hobbies?
 
-"Y / N"
+"YES"
 
-Enter Customer State:
+My Hobby Recommendation: Programming
 
-"Y / N"
-
-Enter Customer Zip Code:
-
-"Y / N"
-
-Enter Customer Phone Number:
-
-"Y / N"
-
-The Assigned User String is 59006HMLE1234elmstreetCLE02000-4600
+Thank you for using the Hobby Recommender!
 
 
 ---
@@ -93,39 +81,34 @@ Welcome to the Hobby Recommender!
 
 Are you interested in finding a new hobby?
 
-"Y / N"
+"YeS"
 
-Enter Customer Age:
+Do you prefer indoor hobbies?
 
-"Y / N"
+"nO"
 
-Enter Customer Street Address:
+Do you like physical exercise?
 
-"Y / N"
+"no"
 
-Enter Customer City:
+Do you enjoy being close to nature?
 
-"Y / N"
+"NO"
 
-Enter Customer State:
+Do you enjoy thrilling activities?
 
-"Y / N"
+"YES"
 
-Enter Customer Zip Code:
+My Hobby Recommendation: Go-Karting
 
-"Y / N"
-
-Enter Customer Phone Number:
-
-"Y / N"
-
-The Assigned User String is 59006HMLE1234elmstreetCLE02000-4600
+Thank you for using the Hobby Recommender!
 
 
 ---
 
 ## Notes
 
-- The program transforms each piece of input using a combination of **letter selection, numeric operations, and string formatting**.  
-- Spaces are removed and certain letters (`O`, `o`, `I`, `i`) are excluded to create a **unique identifier string**.  
-- All other inputs will generate a similar string, following the same rules.
+- The program .  
+- The responses are written with different cases (uppercase and lowercase) to illustrate the case insensitivity.  
+- All other inputs will generate a similar conversation, following the same guide.
+- The program is not set up to deal with invalid inputs 
