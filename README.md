@@ -29,6 +29,9 @@ The goal is to demonstrate:
 
 ## ⚙️ How It Works (Step-by-Step Overview) 
 
+You can find sample test inputs and outputs in [`SampleOutput.md`](./SampleOutput.md),
+but here’s a general overview of the process:
+
 1. The program welcomes the user and asks if they are interested in finding a new hobby.  
 2. If “yes,” it continues through a decision tree of questions (indoor/outdoor, physical/technical/artistic, etc.).  
 3. Based on the combination of answers, it prints a specific **hobby recommendation**.  
