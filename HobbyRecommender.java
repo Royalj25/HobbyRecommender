@@ -29,18 +29,18 @@ public class HobbyRecommender {
         " the Hobby Recommender!";
 
     // Hobby recommendations
-    public static final String HOBBY_ONE = "I suggest you try: Painting!";
-    public static final String HOBBY_TWO = "I suggest you try: Programming!";
-    public static final String HOBBY_THREE = "I suggest you try: Board Games!";
-    public static final String HOBBY_FOUR = "I suggest you try: Cooking!";
-    public static final String HOBBY_FIVE = "I suggest you try: Football!";
-    public static final String HOBBY_SIX = "I suggest you try: Cycling!";
-    public static final String HOBBY_SEVEN = "I suggest you try: Weightlifting!";
-    public static final String HOBBY_EIGHT = "I suggest you try: Jogging!";
-    public static final String HOBBY_NINE = "I suggest you try: Fishing!";
-    public static final String HOBBY_TEN = "I suggest you try: Wildlife Photography!";
-    public static final String HOBBY_ELEVEN = "I suggest you try: Go-karting!";
-    public static final String HOBBY_TWELVE = "I suggest you try: Kite Flying!";
+    public static final String HOBBY_ONE = "My Hobby Recommendation: Painting";
+    public static final String HOBBY_TWO = "My Hobby Recommendation: Programming";
+    public static final String HOBBY_THREE = "My Hobby Recommendation: Board Games";
+    public static final String HOBBY_FOUR = "My Hobby Recommendation: Cooking";
+    public static final String HOBBY_FIVE = "My Hobby Recommendation: Football";
+    public static final String HOBBY_SIX = "My Hobby Recommendation: Cycling";
+    public static final String HOBBY_SEVEN = "My Hobby Recommendation: Weightlifting";
+    public static final String HOBBY_EIGHT = "My Hobby Recommendation: Jogging";
+    public static final String HOBBY_NINE = "My Hobby Recommendation: Fishing";
+    public static final String HOBBY_TEN = "My Hobby Recommendation: Wildlife Photography";
+    public static final String HOBBY_ELEVEN = "My Hobby Recommendation: Go-karting";
+    public static final String HOBBY_TWELVE = "My Hobby Recommendation: Kite Flying";
     
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
