@@ -111,4 +111,8 @@ Thank you for using the Hobby Recommender!
 - The responses are written in different cases (uppercase, lowercase, mixed) to show that the program treats input as **case-insensitive**.  
 - Each decision path leads to one final hobby suggestion (e.g., Painting, Programming, Go-Karting, etc.).
 - All other input combinations will generate a similar interactive experience, following the same logical structure.
-- The program currently does **not handle invalid inputs** (such as numbers or unrelated text). It assumes the user will answer with “yes” or “no.”  
+- The program currently does **not handle invalid inputs** (such as numbers or unrelated text). It assumes the user will answer with “yes” or “no.”
+
+---
+
+Go back to the main --> 
