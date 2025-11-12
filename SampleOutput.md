@@ -113,6 +113,4 @@ Thank you for using the Hobby Recommender!
 - All other input combinations will generate a similar interactive experience, following the same logical structure.
 - The program currently does **not handle invalid inputs** (such as numbers or unrelated text). It assumes the user will answer with “yes” or “no.”
 
----
 
-Go back to the main --> 
