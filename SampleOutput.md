@@ -23,9 +23,9 @@ Are you interested in finding a new hobby?
 
 "yes"
 
-Enter Customer Age:
+Do you prefer indoor hobbies?
 
-"Y / N"
+"no"
 
 Enter Customer Street Address:
 
