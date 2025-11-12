@@ -108,7 +108,9 @@ Thank you for using the Hobby Recommender!
 
 ## Notes
 
-- The program .  
-- The responses are written with different cases (uppercase and lowercase) to illustrate the case insensitivity.  
-- All other inputs will generate a similar conversation, following the same guide.
-- The program is not set up to deal with invalid inputs 
+- The program uses a series of yes/no questions to determine the best hobby recommendation based on the user’s preferences.  
+- The responses are written in different cases (uppercase, lowercase, mixed) to show that the program treats input as **case-insensitive**.  
+- Each decision path leads to one final hobby suggestion (e.g., Painting, Programming, Go-Karting, etc.).  
+- Users who select “no” when asked if they want to find a new hobby will immediately exit the program.  
+- The program currently does **not handle invalid inputs** (such as numbers or unrelated text). It assumes the user will answer with “yes” or “no.”  
+- All other input combinations will generate a similar interactive experience, following the same logical structure.
