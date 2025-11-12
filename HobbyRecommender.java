@@ -29,18 +29,18 @@ public class HobbyRecommender {
         " the Hobby Recommender!";
 
     // Hobby recommendations
-    public static final String HOBBY_ONE = "I suggest you try: Painting";
-    public static final String HOBBY_TWO = "I suggest you try: Programming";
-    public static final String HOBBY_THREE = "I suggest you try: Board Games";
-    public static final String HOBBY_FOUR = "I suggest you try: Cooking";
-    public static final String HOBBY_FIVE = "I suggest you try: Football";
-    public static final String HOBBY_SIX = "I suggest you try: Cycling";
-    public static final String HOBBY_SEVEN = "I suggest you try: Weightlifting";
-    public static final String HOBBY_EIGHT = "I suggest you try: Jogging";
-    public static final String HOBBY_NINE = "I suggest you try: Fishing";
-    public static final String HOBBY_TEN = "I suggest you try: Wildlife Photography";
-    public static final String HOBBY_ELEVEN = "I suggest you try: Go-karting";
-    public static final String HOBBY_TWELVE = "I suggest you try: Kite Flying";
+    public static final String HOBBY_ONE = "I suggest you try: Painting!";
+    public static final String HOBBY_TWO = "I suggest you try: Programming!";
+    public static final String HOBBY_THREE = "I suggest you try: Board Games!";
+    public static final String HOBBY_FOUR = "I suggest you try: Cooking!";
+    public static final String HOBBY_FIVE = "I suggest you try: Football!";
+    public static final String HOBBY_SIX = "I suggest you try: Cycling!";
+    public static final String HOBBY_SEVEN = "I suggest you try: Weightlifting!";
+    public static final String HOBBY_EIGHT = "I suggest you try: Jogging!";
+    public static final String HOBBY_NINE = "I suggest you try: Fishing!";
+    public static final String HOBBY_TEN = "I suggest you try: Wildlife Photography!";
+    public static final String HOBBY_ELEVEN = "I suggest you try: Go-karting!";
+    public static final String HOBBY_TWELVE = "I suggest you try: Kite Flying!";
     
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
